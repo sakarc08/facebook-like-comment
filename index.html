@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+
+    <body>
+        <div class="name-input" id="name-input">
+            <input placeholder="Enter name" maxlength="10" class="enter-name-input" id="enter-name-input">
+            <button class="username-button" id="username-button" onclick="saveUsername()">Save Username</button>
+        </div>
+
+        
+        <div class="comments-container" id="comments-container">
+
+        </div>
+
+        <div class="comment-box" id="comment-box">
+            <textarea placeholder="Enter comment" maxlength="100" id="comment" class="comment"></textarea>
+            <button class="comment-button" id="comment-button" onclick="addComment()">Comment</button>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    margin: 5% auto;
+    width: 70%;
+}
+
+.name-input {
+    display: inline-block;
+    /* width: 20%; */
+}
+
+.enter-name-input {    
+    border-radius: 13px;
+    outline: none;
+    padding: 10px;
+    width: 90%;
+    min-width: 150px;
+    height: 32px;
+    border: 1px solid dodgerblue;   
+}
+
+.username-button {
+    float: right;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #81d4fa7d;   
+}
+
+.comment-div {
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+
+.comment-text {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+}
+
+.comment-box {
+    /* display: inline-block;
+    width: 20%; */
+    margin-top: 20px;
+}
+
+.comment {
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    width: 90%;
+    min-width: 150px;
+    height: 60px;
+    border: 1px solid dodgerblue;
+}
+
+.comment-button {
+    float: right;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #81d4fa7d;
+}
+
+.comments-container {
+    margin: 50px 0;
+}
+
+.comment-div {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.reply-div {
+    border: 1px solid dodgerblue;
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.comment-options {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+.like-button span, .reply-button span, .delete-button span {
+    margin-left: 10px;
+    vertical-align: text-top;
+}
+
+.reply-text {
+    border-radius: 13px;
+    margin-left: 30px;
+    width: 85%;
+    height: 45px;
+    outline: none;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid dodgerblue;
+}
+
+.post-reply-button {
+    float: right;
+    margin-top: 10px;
+}
+
+.total-likes {
+    float: right;
+    padding: 6px 12px;
+}
+
+.total-likes::before {
+    content: "\e125";
+    position: relative;
+    top: 1px;
+    padding-right: 5px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
